@@ -90,6 +90,7 @@ form{
     color:#dcd4d4;
 
 }
+
 .content-carrito-icon{
     width: 80px;
     height: 80px;
@@ -114,17 +115,6 @@ form{
 }
 
 
-
-  
-.h4, h4 { 
-    text-align: center;
-    font-size: 35px !important;
-    line-height: 10vh !important;
-    color: #d0c4c4 !important;
-    background-color: #FFFFFF !important;
-    font-family: 'Times New Roman', Times, serif !important;
-}
-
 .h5,h5{
     color: #000;
 }
@@ -147,10 +137,6 @@ form{
     width: 90%;
 }
 
-.link-img img{
-    width: 70px;
-    margin-bottom: 10px;
-}
 
 .socials-2 img{
     width: 50px;
@@ -232,12 +218,7 @@ header{
     padding: 5%;
 }
 
-@media(max-width: 500px){
-    .contenedor{
-        flex-direction: column;
-    }
 
-}
 
 @media (max-width: 768px) {  
     .carousel-inner {
