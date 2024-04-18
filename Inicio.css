@@ -72,7 +72,7 @@ form{
     gap: 10px;
     padding: 5%;
 }
-
+ 
 .campo{
     
   padding: 17px 35px;
@@ -232,4 +232,23 @@ header{
         width: 80%;  
         height: 50vh;  
     }
+}
+
+
+.modal-header{
+    background-color: #a29090;
+    color: #FFFFFF;
+}
+.modal-body{
+    background-color: #a29090;
+    color: #FFFFFF;
+}
+.modal-footer{
+    background-color: #a29090 !important;
+}
+
+.btn-primary2{
+    background-color: white !important ; 
+    color: #000 !important;
+    border: none !important;
 }

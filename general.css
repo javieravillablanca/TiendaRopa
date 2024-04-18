@@ -24,13 +24,11 @@ img{
     max-width: 100%;
 }
 
-header{
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
+h1{
+    color: #FFFFFF !important;
     padding: 40px 0 40px 0;
     border-bottom: 1px solid rgb(249, 245, 245);
-    margin: 15px;
+    margin: 50px;
 }
 
 .hidder-cart{
@@ -71,6 +69,7 @@ header{
 .item figure{
     overflow: hidden;
 }
+
 
 .item:hover img{
     transform: scale(1.2);
@@ -208,6 +207,7 @@ form{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    gap: 10px;
     justify-content:center;
     gap: 10px;
 }
