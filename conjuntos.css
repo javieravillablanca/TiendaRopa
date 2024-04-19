@@ -15,13 +15,8 @@ body{
     font-family: 'Lato';
     color: #333;
     border-bottom: 1px solid rgb(249, 245, 245);
-    
-    
 }
 
-.card-body{
-    display: grid !important;
-}
 
 .header{
     color: #FFFFFF;
@@ -29,10 +24,23 @@ body{
 }
 
 
+.navbar{
+    border: 1px solid #FFFFFF;
+}
+
+
 .h1,h1{
     color: #ffffff !important;
     padding: 2%;
     border-top: 1px solid #FFFFFF !important;
+}
+
+.h2,h2{
+    color: #FFFFFF !important;
+}
+
+.h5,h5{
+    color: #000;
 }
 
 .h7,h7{
@@ -43,12 +51,8 @@ body{
     padding: 40px 0 40px 0;
     font-size: 38px;
     margin: 15px;
-
 }
 
-.h2,h2{
-    color: #FFFFFF !important;
-}
 
 
 .btn-2{
@@ -68,6 +72,48 @@ body{
     background-color: azure;
 }
 
+
+
+.card-body{
+    display: grid !important;
+}
+
+.campo{
+    
+    padding: 17px 35px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin-right: 15px;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    color: #000;
+    width: 45%;
+}
+  
+.campo::placeholder{
+    color:#dcd4d4;
+}
+
+
+.form-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5%;
+    border-top: 1px solid #ffffff;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:center;
+    gap: 10px;
+}
+
+
+
 .footer{
     border-top: 2px solid #E8E8E8;
     padding: 50px 0 0 0 ;
@@ -76,9 +122,18 @@ body{
     background-color: #f0efeb;
 }
 
-.h5,h5{
-    color: #000;
+
+
+.mx-5{
+    padding: 5% !important;
+    border-top: 1px solid #ffffff !important;
 }
+
+.col {
+    
+    padding: 1%;
+}
+
 
 
 .footer-links{
@@ -134,52 +189,4 @@ body{
     margin: 0;
 }
 
-.campo{
-    
-    padding: 17px 35px;
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    margin-right: 15px;
-    border: 1px solid #FFFFFF;
-    outline: none;
-    color: #000;
-    width: 45%;
-   
-}
-  
-.campo::placeholder{
-    color:#dcd4d4;
-  
-}
 
-.form-content{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 5%;
-    border-top: 1px solid #ffffff;
-}
-
-.navbar{
-    border: 3px solid #FFFFFF;
-}
-
-form{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content:center;
-    gap: 10px;
-}
-
-
-.mx-5{
-    padding: 5% !important;
-    border-top: 1px solid #ffffff !important;
-}
-
-.col {
-    
-    padding: 1%;
-}

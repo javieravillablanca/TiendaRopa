@@ -9,6 +9,8 @@
     box-sizing: border-box;
 } 
 
+
+
 body{
     font-family: 'Times New Roman', Times, serif !important;
     display: inline; 
@@ -17,28 +19,8 @@ body{
     color: #333;
     background-color: #d0c4c4 !important;
     min-width: 300px !important;
-   
 }
 
-
-
-.icon-cart{
-    width: 40px;
-    height: 40px;
-    stroke: #000;
-    
-    
-}
-
-.icon-cart:hover{
-    cursor: pointer;
-   
-}
-
-img{
-    max-width: 100%;
-    
-}
 
 
 header{
@@ -48,35 +30,39 @@ header{
     border-bottom: 1px solid rgb(249, 245, 245);
     min-width: 300px !important;
     margin: 15px;
-    
 }
+
+
+
+h1{
+    color: #FFFFFF !important;
+    padding: 40px 0 40px 0;
+    border-bottom: 1px solid rgb(249, 245, 245);
+    margin: 50px;
+}
+
+.h5,h5{
+    color: #000;
+}
+
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #000;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+
 
 .container-icon{
  position: relative ;
- 
- 
 }
 
-.count-products{
-    position: absolute;
-    top: 55%;
-    right: 0;
-    background-color: #000;
-    color: #FFFFFF;
-    width: 25px;
-    height: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    max-width: 100% !important;
-   
-}
 
-#contador-productos{
-    font-size: 12px;
-    
-}
 
 .container-cart-products{
     position: absolute;
@@ -95,7 +81,6 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 30px;
-    
 }
 
 .info-cart-product{
@@ -105,35 +90,58 @@ header{
     flex: 0.8;
 }
 
+
+
+img{
+    max-width: 100%;
+}
+
+
+
+.count-products{
+    position: absolute;
+    top: 55%;
+    right: 0;
+    background-color: #000;
+    color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    max-width: 100% !important;
+}
+
+#contador-productos{
+    font-size: 12px;
+}
+
+
+
 .titulo-producto-carrito{
     display: list-item;
     font-size: 20px;
-    
-
-
 }
 
 .titulo-producto-carriito{
     display: list-item;
     text-align: justify;
     font-size: 20px;
-
-
 }
 
 .tiitulo-producto-carriito{
     display: list-item;
     text-align: justify;
     font-size: 20px;
-
 }
 
 .tittulo-producto-carriito{
     display: list-item;
     text-align: justify;
     font-size: 20px;
-
 }
+
 
 
 .precio-producto-carrito{
@@ -144,7 +152,6 @@ header{
     width: 330px;
     margin-top: -50px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.20);
-
 }
 
 .preciio-producto-carrito{
@@ -154,7 +161,6 @@ header{
     text-align: end;
     width: 330px;
     position: absolute;
-
 }
 
 .precioo-producto-carrito{
@@ -164,9 +170,6 @@ header{
     text-align: end;
     width: 330px;
     margin-top: -70px;
-    
-    
-
 }
 
 .preecio-producto-carrito{
@@ -176,26 +179,26 @@ header{
     text-align: end;
     width: 330px;
     margin-top: -80px;
-    
 }
+
 
 .cantidad-producto-carrito{
     font-family: 400;
     font-size: 20px;
-    
-
 }
+
 
 .icon-close{
     width: 25px;
     height: 25px ;
 }
 
+
 .icon-close:hover{
     stroke: red;
     cursor: pointer;
-
 }
+
 
 .cart-total{
     display: flex;
@@ -210,14 +213,20 @@ header{
     font-weight: 700;
 }
 
+
+
 .total-pagar{
     font-size: 20px;
     font-weight: 900;
 }
 
+
+
 .hidden-cart{
     display: none;
 }
+
+
 
 .container-items{
     display: flex;
@@ -226,21 +235,17 @@ header{
     width: 100%;
     gap:20px;
     padding: 5%;
-    
 }
 
 .item{
     border-radius:  10px;
     max-width: 33-33%;
     box-sizing: border-box;
-   
 }
 
 .item:hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
 }
-
-
 
 .item img{
     width: 100%;
@@ -256,8 +261,9 @@ header{
 
 .item:hover img{
     transform: scale(1.2);
-
 }
+
+
 
 .info-product{
     padding: 15px 30px;
@@ -267,10 +273,13 @@ header{
     gap: 10px;
 }
 
+
+
 .price{
     font-size: 18px;
     font-weight: 900;
 }
+
 
 .info-product button{
     border: none;
@@ -299,88 +308,7 @@ header{
     background-color: azure;
 }
 
-.footer{
-    border-top: 2px solid #E8E8E8;
-    padding: 50px 0 0 0 ;
-    display: flex;
-    justify-content: center;
-    background-color: #f0efeb;
-}
 
-.h5,h5{
-    color: #000;
-}
-
-.footer-links{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.link{
-    width: 30%;
-}
-
-.link-img{
-    text-align: center;
-}
-
-.link-img img{
-    width: 70px;
-    margin-bottom: 10px;
-}
-
-.socials-2 img{
-    width: 50px;
-    margin: 10px;
-}
-
-.link h3{
-    font-size: 22px;
-    color: #000;
-    margin-bottom: 15px;
-}
-
-.link a{
-    font-size: 18px;
-    display: flex;
-    color: #000;
-    margin-bottom: 20px;
-}
-
-.link a:hover{
-    color: #FFFFFF;
-}
-
-.footer-copy{
-    padding: 25px 0;
-    text-align: center;
-    border-top: 1px solid #918a8a;
-}
-
-.footer-copy p{
-    color: #FFFFFF;
-    font-size: 16px;
-    margin: 0;
-}
-
-.campo{
-    
-    padding: 17px 35px;
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    margin-right: 15px;
-    border: 1px solid #FFFFFF;
-    outline: none;
-    color: #000;
-    width: 45%;
-   
-}
-  
-.campo::placeholder{
-    color:#dcd4d4;
-  
-}
 
 .form-content{
     color: #FFFFFF;
@@ -402,9 +330,94 @@ form{
 }
 
 
-h1{
-    color: #FFFFFF !important;
-    padding: 40px 0 40px 0;
-    border-bottom: 1px solid rgb(249, 245, 245);
-    margin: 50px;
+
+.campo{
+    
+    padding: 17px 35px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin-right: 15px;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    color: #000;
+    width: 45%;
 }
+
+.campo::placeholder{
+    color:#dcd4d4;
+}
+
+
+
+.footer{
+    border-top: 2px solid #E8E8E8;
+    padding: 50px 0 0 0 ;
+    display: flex;
+    justify-content: center;
+    background-color: #f0efeb;
+}
+
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link{
+    width: 30%;
+}
+
+.link-img{
+    text-align: center;
+}
+
+.link-img img{
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+
+.socials-2 img{
+    width: 50px;
+    margin: 10px;
+}
+
+
+
+.link h3{
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.link a{
+    font-size: 18px;
+    display: flex;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.link a:hover{
+    color: #FFFFFF;
+}
+
+
+
+.footer-copy{
+    padding: 25px 0;
+    text-align: center;
+    border-top: 1px solid #918a8a;
+}
+
+.footer-copy p{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+
+
+
+
