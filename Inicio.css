@@ -11,7 +11,7 @@
 
 body{
     font-family: 'Times New Roman', Times, serif !important;
-    background-color: #d0c4c4 !important;
+    background-color: #d1bcc0 !important;
     display: inline; 
     margin: 0 auto !important;
     max-width: 1200px !important;
@@ -33,7 +33,7 @@ p{
     font-size: 50px !important;
     line-height: 10vh !important;
     color: #FFFFFF !important;
-    background-color: #a29090 !important;
+    background-color: #d1bcc0  !important;
     border-bottom: 3px solid rgb(252, 249, 249);
 }
 
@@ -46,6 +46,7 @@ p{
 .navbar{
     border: 3px solid #FFFFFF;
 }
+
 
 
 
@@ -63,22 +64,22 @@ p{
 
 
 .custom-modal-btn {
-    background-color: #a29090 !important;
+    background-color: #bda5a5 !important;
     border-color: #FFFFFF !important; 
 }
 
 .modal-header{
-    background-color: #a29090;
+    background-color: #bda5a5;
     color: #FFFFFF;
 }
 
 .modal-body{
-    background-color: #a29090;
+    background-color: #bda5a5;
     color: #FFFFFF;
 }
 
 .modal-footer{
-    background-color: #a29090 !important;
+    background-color: #bda5a5 !important;
 }
 
 

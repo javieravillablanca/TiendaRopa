@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open Inicio.html",
-            "file": "c:\\Users\\jaavi\\PROGRAMACIONHTML\\Inicio.html"
+            "file": "c:\\Users\\jaavi\\TiendaRopa\\Inicio.html"
         }
     ]
 }
