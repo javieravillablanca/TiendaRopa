@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *::after,
@@ -24,7 +23,7 @@ body{
 p{
     font-family: 'Times New Roman', Times, serif !important;
     font-size: 20px !important;
-    color: #ffff !important;
+    color: #fff !important;
 }
 
 
@@ -35,13 +34,12 @@ p{
     line-height: 10vh !important;
     color: #FFFFFF !important;
     background-color: #d1bcc0  !important;
-    border-bottom: 3px solid rgb(252, 249, 249) !important;
+    border-bottom: 3px solid rgb(252, 249, 249);
 }
 
 .h5,h5{
     color: #000;
 }
-
 
 
 
@@ -71,17 +69,17 @@ p{
 }
 
 .modal-header{
-    background-color: #bda5a5;
+    background-color: #d1bcc0;
     color: #FFFFFF;
 }
 
 .modal-body{
-    background-color: #bda5a5;
+    background-color: #d1bcc0;
     color: #FFFFFF;
 }
 
 .modal-footer{
-    background-color: #bda5a5 !important;
+    background-color: #d1bcc0 !important;
 }
 
 
@@ -106,57 +104,6 @@ p{
 
 
 
-
-form{
-    display: flex;
-    flex-wrap: wrap;
-    width:  100%;
-    justify-content:center;
-    gap: 20px;
-    padding: 5%;
-}
-
-.form-content{
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 5%;
-    border-top: 1px solid #FFFFFF;
-    
-}
-
-label {
-    
-    align-content: center;
-}
-
-
-
-img{
-    max-width: 100%;
-}
- 
-
-
-.campo{ 
-    display: flex ;
-    padding: 20px 50px;
-    width: 45vh;
-    align-items: center;
-    height: 8vh;
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    border: 1px solid #FFFFFF;
-    outline: none;
-    color: #000;
-}
-
-.campo::placeholder{
-    color:#dcd4d4;
-  
-}
 
 
 
@@ -248,7 +195,9 @@ img{
     border: none !important;
 }
 
-
+.btn-primary{
+    --bs-btn-border-color: #000 !important;
+}
 
 @media (max-width: 768px) {  
     .carousel-inner {
@@ -266,6 +215,169 @@ img{
 
 
 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*::after,
+*::before,
+*{ 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Times New Roman', Times, serif !important;
+    display: inline;
+    background-color: #d1bcc0 !important;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Lato';
+    color: #333;
+}
+
+
+h1{
+    color: #FFFFFF !important;
+    
+    border-bottom: 1px solid rgb(249, 245, 245);
+    margin: 50px;
+}
+
+
+.h5,h5{
+    color: #000;
+}
+
+
+
+.navbar{
+    border: 1px solid #FFFFFF;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+
+.hidder-cart{
+    display: none;
+}
+
+
+.container-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap:20px;
+    padding: 5%;
+}
+
+.item{
+    border-radius:  10px;
+    max-width: 33-33%;
+    box-sizing: border-box;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius:  10px 10px 0 0;
+    transition: all .5s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+
+}
+
+
+
+
+
+
+
+
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width:  100%;
+    justify-content:center;
+    gap: 20px;
+    padding: 5%;
+}
+
+.form-content{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5%;
+    border-top: 1px solid #FFFFFF;
+    
+}
+
+label {
+    
+    align-content: center;
+}
+
+.campo{ 
+    display: flex ;
+    padding: 20px 50px;
+    width: 45vh;
+    align-items: center;
+    height: 8vh;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    color: #000;
+    flex-direction: column ;
+    
+    
+}
+
+.campo::placeholder{
+    color:#dcd4d4;
+  
+}
 
 .error{
    
