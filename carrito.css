@@ -19,6 +19,28 @@ body{
     color: #333;
 }
 
+.h1,h1{
+    
+    font-size: 50px !important;
+    padding: 30px !important;
+    line-height: 10vh !important;
+    color: #FFFFFF !important;
+    background-color: #d1bcc0  !important;
+    border-bottom: 1px solid rgb(252, 249, 249) !important;
+    margin: 50px;
+}
+
+.h2,h2{
+    padding: 2% !important;
+}
+
+p{
+    color: #000000;
+}
+
+.navbar{
+    border-bottom: 1px solid rgb(252, 249, 249) !important;
+}
 
 .product {
     display: flex;
@@ -62,34 +84,138 @@ body{
     font-size: 1.8rem;
 }
 
-/*.btn {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #ffffff; 
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-}*/
-
-/*.navbar-nav .nav-link {
-    color: #ffffff !important; 
-    background-color: #d1bcc0; 
-    
-}*/
-
 .content-carrito-icon{
     width: 80px;
     height: 80px;
+    ALIGN-CONTENT: space-evenly;
 }
 
 .list-inline-item {
     font-size: 20px;
     color: #ffffff;
     margin-right: 5px;
+}
+
+
+.pagar{
+    width: 30%;
+    font-size: 1.5rem !important;
+    
+}
+
+
+.btn-success{
+    background-color: #000 !important;
+    border: none !important;
+    font-size: 1.5rem !important; 
+}
+
+.limpiar-carrito{
+    background-color: #ff0000 !important;
+    border: none !important;
+    margin: 1vw ;
+}
+
+.totales-carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2vw;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 10px;
+    justify-content:center;
+    gap: 10px;
+}
+
+.form-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5%;
+    border-top: 1px solid #ffffff;
+    color: #ffffff;
+    
+}
+
+.campo{ 
+    display: flex ;
+    padding: 20px 50px;
+    width: 45vh;
+    align-items: center;
+    height: 8vh;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    color: #000;
+    
+}
+
+.campo::placeholder{
+    color:#dcd4d4;
+  
+}
+
+
+.btn-2{
+   display: inline-block;
+    padding: 13px 45px;
+    font-size: 18px;
+    background-color: #cda0a8;
+    color: #FFFFFF;
+    border-radius: 25px;
+    border: 0;
+    font-family: 'Bebas Neve', cursive;
+    cursor: pointer;
+}
+
+.btn-2:hover{
+    background-color: #000;
+}
+
+.error{
+    color: red;
+}
+
+.link{
+    width: 30%;
+}
+
+.link-img{
+    text-align: center;
+}
+
+.link-img img{
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.socials-2 img{
+    width: 50px;
+    margin: 10px;
+}
+
+.link h3{
+    font-size: 22px;
+    color: #000;
+    margin-bottom:  15px;
+}
+
+.link a{
+    font-size: 18px;
+    display: flex;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.link a:hover{
+    color: #bb7373;
 }
 
 .footer{
@@ -151,165 +277,9 @@ body{
     margin-bottom: 20px;
 }
 
-
-/*.navbar-toggler{
-    background-color: #d1bcc0 !important;
-    
-}
-
-.nav-link{
-    align-self: center !important;
-}*/
-
-/*.carro{
-    position: absolute;
-    right: 20px;
-}*/
-
 @media(max-width:992px) {
     .carro{
         position: initial;
 
     }
-}
-
-.pagar{
-    width: 30%;
-    font-size: 1.5rem !important;
-}
-
-.btn-success{
-    background-color: #000 !important;
-    border: none !important;
-    font-size: 1.5rem !important; 
-    
-}
-
-.limpiar-carrito{
-    background-color: #ff0000 !important;
-    border: none !important;
-    margin: 1vw ;
-}
-
-.totales-carrito{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 2vw;
-}
-
-form{
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    gap: 10px;
-    justify-content:center;
-    gap: 10px;
-}
-
-.form-content{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 5%;
-    border-top: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-.campo{ 
-    display: flex ;
-    padding: 20px 50px;
-    width: 45vh;
-    align-items: center;
-    height: 8vh;
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    border: 1px solid #FFFFFF;
-    outline: none;
-    color: #000;
-}
-
-.campo::placeholder{
-    color:#dcd4d4;
-  
-}
-
-
-.btn-2{
-   display: inline-block;
-    padding: 13px 45px;
-    font-size: 18px;
-    background-color: #cda0a8;
-    color: #FFFFFF;
-    border-radius: 25px;
-    border: 0;
-    font-family: 'Bebas Neve', cursive;
-    cursor: pointer;
-}
-
-.btn-2:hover{
-    background-color: #000;
-}
-
-.error{
-    color: red;
-}
-
-.link{
-    width: 30%;
-}
-
-.link-img{
-    text-align: center;
-}
-
-.link-img img{
-    width: 70px;
-    margin-bottom: 10px;
-}
-
-.socials-2 img{
-    width: 50px;
-    margin: 10px;
-}
-
-.h1,h1{
-    
-    font-size: 50px !important;
-    padding: 30px !important;
-    line-height: 10vh !important;
-    color: #FFFFFF !important;
-    background-color: #d1bcc0  !important;
-    border-bottom: 1px solid rgb(252, 249, 249) !important;
-    margin: 50px;
-}
-
-.h2,h2{
-    padding: 2% !important;
-}
-
-.link h3{
-    font-size: 22px;
-    color: #000;
-    margin-bottom:  15px;
-}
-
-.link a{
-    font-size: 18px;
-    display: flex;
-    color: #000;
-    margin-bottom: 20px;
-}
-
-.link a:hover{
-    color: #bb7373;
-}
-
-p{
-    color: #000000;
-}
-
-.navbar{
-    border-bottom: 1px solid rgb(252, 249, 249) !important;
 }

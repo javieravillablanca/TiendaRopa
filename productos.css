@@ -52,7 +52,9 @@ p{
 .content-carrito-icon{
     width: 80px;
     height: 80px;
+    ALIGN-CONTENT: space-evenly;
 }
+
 
 .modal-header{
     background-color: #d1bcc0;
@@ -68,6 +70,121 @@ p{
     background-color: #d1bcc0 !important;
 }
 
+.btn{
+    --bs-btn-hover-border-color: #fff !important
+}
+
+
+.navbar{
+    border: 1px solid #FFFFFF;
+}
+
+.card-text{
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    color: #000 !important;
+    padding: 5px !important;
+    
+
+}
+
+.card-title{
+    color: #000 !important;
+    line-height: 2 !important;
+    padding: 5px !important;
+}
+
+figure {
+    margin: 0 0 0rem !important;
+}
+
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    
+
+}
+
+.card figure{
+    
+    overflow: hidden;
+
+}
+
+.card img{
+    transition: all .5s;
+    
+    
+}
+
+.card:hover{
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.20);
+}
+
+.card:hover img{
+    
+    transform: scale(1.2);
+}
+
+.card button{
+  
+    border-radius: 0%  !important;
+    background: none !important;
+    background-color: #000 !important;
+    color: #FFFFFF !important;
+    padding: 15px 10px !important;
+    cursor: pointer !important;
+    height: 50px !important;
+    margin: 20px !important;
+    width: 340px !important;
+
+}
+
+.btn-primary{
+    --bs-btn-border-color: #000 !important;
+    --bs-btn-hover-border-color: #fff !important
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 10px;
+    justify-content:center;
+    gap: 10px;
+}
+
+.form-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5%;
+    border-top: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+
+.campo{ 
+    display: flex ;
+    padding: 20px 50px;
+    width: 45vh;
+    align-items: center;
+    height: 8vh;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    color: #000;
+
+}
+
+.campo::placeholder{
+    color:#dcd4d4;
+  
+}
+
 .btn-2{
     display: inline-block;
     padding: 13px 45px;
@@ -78,10 +195,17 @@ p{
     border: 0;
     font-family: 'Bebas Neve', cursive;
     cursor: pointer;
+    
 }
 
 .btn-2:hover{
     background-color: #000;
+}
+
+.error{
+   
+    color: red;
+   
 }
 
 .footer{
@@ -139,58 +263,4 @@ p{
 
 .link a:hover{
     color: #bb7373;
-}
-
-.btn-primary{
-    --bs-btn-border-color: #000 !important;
-}
-
-
-.navbar{
-    border: 1px solid #FFFFFF;
-}
-
-form{
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    gap: 10px;
-    justify-content:center;
-    gap: 10px;
-}
-
-.form-content{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 5%;
-    border-top: 1px solid #ffffff;
-    color: #ffffff;
-}
-
-
-.campo{ 
-    display: flex ;
-    padding: 20px 50px;
-    width: 45vh;
-    align-items: center;
-    height: 8vh;
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    border: 1px solid #FFFFFF;
-    outline: none;
-    color: #000;
-
-}
-
-.campo::placeholder{
-    color:#dcd4d4;
-  
-}
-
-.error{
-   
-    color: red;
-   
 }

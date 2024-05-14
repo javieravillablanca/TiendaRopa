@@ -16,7 +16,6 @@ function valorDolar() {
 
 
 
-
 function agregarAlCarrito(nombre, precio, imagen) {
   $('#exampleModal').modal('show');
   let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
