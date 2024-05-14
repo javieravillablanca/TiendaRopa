@@ -153,29 +153,43 @@
       </div>
 
 
-    <div class="form-content">
+      <div class="form-content">
         <h2>¡Suscríbete para no perderte nuestras ofertas!</h2>
-        <form action="">
-     
-           <label for="name">Nombre</label>
+         <form action="">
+           <div>
+             <label for="name">Nombre</label>
              <input class="campo" type="text" id="name" name="name" placeholder="Claudio">
-             <span class="error" id="errorNombre"></span> 
+             <span class="error" id="errorNombre"></span>
+           </div>
      
-           <label for="lastName">Apellido</label>
+           <div>
+             <label for="lastName">Apellido</label>
              <input class="campo" type="text" id="lastName" name="last name" placeholder="Bernal">
              <span class="error" id="errorApellido"></span>
+           </div>
      
-           <label for="number">Numero</label>
+           <div>
+             <label for="number">Numero</label>
              <input class="campo" type="text" id="number" name="number" placeholder="935463464">
              <span class="error" id="errorNumero"></span>
-         
-            <label for="email">Email</label>
+           </div>
+     
+           <div>
+             <label for="email">Email</label>
              <input class="campo" type="email" id="email" name="email" placeholder="claudio.b@gmail.com">
              <span class="error" id="errorEmail"></span> 
+           </div>
+     
+           <div class="button">
              <button type="button" class="btn-2" onclick=" validarFormulario();">Suscribirse</button>
-        </form>
-        <div id="error"></div> 
-    </div>
+     
+           </div>
+         
+           
+             
+         </form>
+         
+       </div>
       
       
       <footer class="footer">

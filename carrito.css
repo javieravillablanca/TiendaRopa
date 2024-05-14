@@ -20,9 +20,6 @@ body{
 }
 
 
-
-
-
 .product {
     display: flex;
     flex-wrap: wrap; 
@@ -65,7 +62,7 @@ body{
     font-size: 1.8rem;
 }
 
-.btn {
+/*.btn {
     padding: 10px 20px;
     background-color: #007bff;
     color: #ffffff; 
@@ -76,32 +73,18 @@ body{
 
 .btn:hover {
     background-color: #0056b3;
-}
+}*/
 
-/* Botón flotante */
-.volver-arriba {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    color: #ffffff; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    display: none;
-    z-index: 1000; 
-}
-
-.volver-arriba.mostrar {
-    display: block;
-}
-
-.navbar-nav .nav-link {
+/*.navbar-nav .nav-link {
     color: #ffffff !important; 
     background-color: #d1bcc0; 
     
+}*/
+
+.content-carrito-icon{
+    width: 80px;
+    height: 80px;
 }
-
-
-
 
 .list-inline-item {
     font-size: 20px;
@@ -169,19 +152,19 @@ body{
 }
 
 
-.navbar-toggler{
+/*.navbar-toggler{
     background-color: #d1bcc0 !important;
     
 }
 
 .nav-link{
     align-self: center !important;
-}
+}*/
 
-.carro{
+/*.carro{
     position: absolute;
     right: 20px;
-}
+}*/
 
 @media(max-width:992px) {
     .carro{
@@ -215,35 +198,24 @@ body{
     margin: 2vw;
 }
 
-
-
-
 form{
     display: flex;
     flex-wrap: wrap;
-    width:  100%;
+    width: 60%;
+    gap: 10px;
     justify-content:center;
-    gap: 20px;
-    padding: 5%;
+    gap: 10px;
 }
 
 .form-content{
-    color: #FFFFFF;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
     padding: 5%;
-    border-top: 1px solid #FFFFFF;
-    
+    border-top: 1px solid #ffffff;
+    color: #ffffff;
 }
-
-label {
-    
-    align-content: center;
-}
-
-
 
 .campo{ 
     display: flex ;
@@ -256,7 +228,6 @@ label {
     border: 1px solid #FFFFFF;
     outline: none;
     color: #000;
-
 }
 
 .campo::placeholder{
@@ -266,20 +237,23 @@ label {
 
 
 .btn-2{
-    display: inline-block;
+   display: inline-block;
     padding: 13px 45px;
     font-size: 18px;
-    background-color: #d4b3b9;
-    color: #ffffff;
+    background-color: #cda0a8;
+    color: #FFFFFF;
     border-radius: 25px;
     border: 0;
     font-family: 'Bebas Neve', cursive;
     cursor: pointer;
-    margin: 0px 20%;
 }
 
 .btn-2:hover{
     background-color: #000;
+}
+
+.error{
+    color: red;
 }
 
 .link{
@@ -311,6 +285,10 @@ label {
     margin: 50px;
 }
 
+.h2,h2{
+    padding: 2% !important;
+}
+
 .link h3{
     font-size: 22px;
     color: #000;
@@ -330,12 +308,6 @@ label {
 
 p{
     color: #000000;
-}
-
-.error{
-   
-    color: red;
-   
 }
 
 .navbar{
