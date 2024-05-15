@@ -34,6 +34,7 @@ p{
     color: #FFFFFF !important;
     background-color: #dac4c9  !important;
     border-bottom: 1px solid rgb(252, 249, 249) !important;
+    
 }
 
 .h2,h2{
@@ -96,7 +97,8 @@ p{
     display: flex;
     text-align: center;
     align-items: center;
-    padding: 15px;
+    padding: 55px !important;
+    
 }
 
 .contenedor>p{

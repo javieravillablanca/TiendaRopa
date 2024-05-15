@@ -1,4 +1,3 @@
-
 function valorDolar() {
   fetch('https://mindicador.cl/api')
       .then(function(response) {
@@ -6,6 +5,7 @@ function valorDolar() {
       })
       .then(function(dailyIndicators) {
           preciodolar = dailyIndicators.dolar.valor;
+          precioeuro = dailyIndicators.euro.valor;
           mostrarProductosCarrito();
       })
       .catch(function(error) {
@@ -39,8 +39,10 @@ function mostrarProductosCarrito() {
   let listaProductos = document.getElementById('lista-productos');
   let totalCarritoCLP = document.getElementById('total-carrito');
   let totalCarritoUSD = document.getElementById('total-carrito2');
+  let totalCarritoEUR = document.getElementById('total-carrito3');
   let totalCLP = 0;
   let totalUSD = 0;
+  let totalEUR = 0;
 
   listaProductos.innerHTML = '';
 
@@ -62,12 +64,16 @@ function mostrarProductosCarrito() {
       `;
       listaProductos.appendChild(divProducto);
       let precioTotalUSD = (producto.precio * producto.cantidad) / preciodolar;
+      let precioTotalEUR = (producto.precio * producto.cantidad) / precioeuro;
       totalCLP += producto.precio * producto.cantidad;
       totalUSD += precioTotalUSD;
+      totalEUR += precioTotalEUR;
   });
 
-  totalCarritoCLP.textContent = `Total: $${totalCLP.toFixed(0).replace(/\d(?=(\d{3})+$)/g, '$&,')} CLP`;
-  totalCarritoUSD.textContent = `Total: $${totalUSD.toFixed(0).replace(/\d(?=(\d{3})+$)/g, '$&,')} USD`;
+  
+  totalCarritoUSD.textContent = `Total: $ ${totalUSD.toFixed(0).replace(/\d(?=(\d{3})+$)/g, '$&,')} USD`;
+  totalCarritoEUR.textContent = `Total: € ${totalEUR.toFixed(0).replace(/\d(?=(\d{3})+$)/g, '$&,')} EUR`;
+  totalCarritoCLP.textContent = `Total: $ ${totalCLP.toFixed(0).replace(/\d(?=(\d{3})+$)/g, '$&,')} CLP`;
 }
 
 function eliminarProducto(index) {
