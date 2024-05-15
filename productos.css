@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *::after,
@@ -11,7 +12,7 @@
 
 body{
     font-family: 'Times New Roman', Times, serif !important;
-    background-color: #d1bcc0 !important;
+    background-color: #ebd4da !important;
     display: inline; 
     margin: 0 auto !important;
     max-width: 1200px !important;
@@ -27,13 +28,13 @@ p{
 }
 
 .h1,h1{
-    color: #FFFFFF !important;
-    border-bottom: 1px solid rgb(249, 245, 245);
-    margin: 50px;
-    font-size: 50px !important;
+   
+    border-bottom: 1px solid rgb(249, 245, 245); 
+    font-size: 35px !important;
     line-height: 10vh !important;
     color: #FFFFFF !important;
-    background-color: #d1bcc0  !important;
+    background-color: #dac4c9 !important;
+    padding: 25px !important;
     
 }
 
@@ -70,6 +71,11 @@ p{
     background-color: #d1bcc0 !important;
 }
 
+.modal-title {
+    background-color:#d1bcc0 !important ;
+    border-bottom: 1px solid #d1bcc0;
+}
+
 .btn{
     --bs-btn-hover-border-color: #fff !important
 }
@@ -84,12 +90,11 @@ p{
     font-weight: 900 !important;
     color: #000 !important;
     padding: 5px !important;
-    
 
 }
 
 .card-title{
-    color: #000 !important;
+    
     line-height: 2 !important;
     padding: 5px !important;
 }
@@ -101,7 +106,6 @@ figure {
 .card{
     border-radius: 10px;
     overflow: hidden;
-    
 
 }
 
@@ -189,7 +193,7 @@ form{
     display: inline-block;
     padding: 13px 45px;
     font-size: 18px;
-    background-color: #cda0a8;
+    background-color: #c18691;
     color: #FFFFFF;
     border-radius: 25px;
     border: 0;
@@ -213,7 +217,7 @@ form{
     padding: 50px 0 0 0 ;
     display: flex;
     justify-content: center;
-    background-color: #f0efeb;
+    background-color: #ffffff;
 }
 
 .footer-copy{

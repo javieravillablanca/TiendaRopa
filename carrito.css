@@ -11,7 +11,7 @@
 
 body{
     font-family: 'Times New Roman', Times, serif !important;
-    background-color: #d1bcc0 !important;
+    background-color: #ebd4da !important;
     display: inline; 
     margin: 0 auto !important;
     max-width: 1200px !important;
@@ -21,13 +21,12 @@ body{
 
 .h1,h1{
     
-    font-size: 50px !important;
-    padding: 30px !important;
+    border-bottom: 1px solid rgb(249, 245, 245); 
+    font-size: 35px !important;
     line-height: 10vh !important;
     color: #FFFFFF !important;
-    background-color: #d1bcc0  !important;
-    border-bottom: 1px solid rgb(252, 249, 249) !important;
-    margin: 50px;
+    background-color: #dac4c9 !important;
+    padding: 25px !important;
 }
 
 .h2,h2{

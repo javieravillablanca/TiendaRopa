@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *::after,
@@ -8,10 +9,9 @@
     box-sizing: border-box;
 } 
 
-
 body{
     font-family: 'Times New Roman', Times, serif !important;
-    background-color: #d1bcc0 !important;
+    background-color: #ebd4da !important;
     display: inline; 
     margin: 0 auto !important;
     max-width: 1200px !important;
@@ -19,19 +19,20 @@ body{
     color: #333;
 }
 
-
 p{
     font-family: 'Times New Roman', Times, serif !important;
     font-size: 20px !important;
     color: #ffff !important;
 }
 
+
+
 .h1,h1{
-    
+
     font-size: 50px !important;
     line-height: 10vh !important;
     color: #FFFFFF !important;
-    background-color: #d1bcc0  !important;
+    background-color: #dac4c9  !important;
     border-bottom: 3px solid rgb(252, 249, 249) !important;
 }
 
@@ -47,6 +48,8 @@ p{
     border: 3px solid #FFFFFF;
 }
 
+
+
 .btn-primary2{
     background-color: white !important ; 
     color: #000 !important;
@@ -58,30 +61,30 @@ p{
     text-align: center !important;
     padding: 20% !important;
 }
-
 .content-carrito-icon{
     width: 80px;
     height: 80px;
 }
 
+
+
 .custom-modal-btn {
-    background-color: #d1bcc0 !important;
+    background-color: #bda5a5 !important;
     border-color: #FFFFFF !important; 
 }
-
 .modal-header{
     background-color: #bda5a5;
     color: #FFFFFF;
 }
-
 .modal-body{
     background-color: #bda5a5;
     color: #FFFFFF;
 }
-
 .modal-footer{
     background-color: #bda5a5 !important;
 }
+
+
 
 .container-titulo{
     min-height: 8vh;
@@ -89,7 +92,6 @@ p{
     text-align: center;
     width: auto;
 }
-
 .contenedor{
     display: flex;
     text-align: center;
@@ -97,8 +99,12 @@ p{
 }
 
 .contenedor>p{
+    padding: 5%;
     padding: 3%;
 }
+
+
+
 
 
 form{
@@ -132,35 +138,37 @@ form{
     border: 1px solid #FFFFFF;
     outline: none;
     color: #000;
+
 }
 
 .campo::placeholder{
     color:#dcd4d4;
-}
 
+}
 
 
 .btn-2{
     display: inline-block;
     padding: 13px 45px;
     font-size: 18px;
-    background-color: #cda0a8;
+    background-color: #c18691;
     color: #FFFFFF;
     border-radius: 25px;
     border: 0;
     font-family: 'Bebas Neve', cursive;
     cursor: pointer;
+    
 }
 
 .btn-2:hover{
     background-color: #000;
 }
 
-
 .error{
+   
     color: red;
+   
 }
-
 
 .footer{
     border-top: 2px solid #E8E8E8;
@@ -169,19 +177,16 @@ form{
     justify-content: center;
     background-color: #f0efeb;
 }
-
 .footer-copy{
     padding: 25px 0;
     text-align: center;
     border-top: 1px solid #918a8a;
 }
-
 .footer-copy p{
     color: #FFFFFF;
     font-size: 16px;
     margin: 0;
 }
-
 .footer-links{
     display: flex;
     flex-wrap: wrap;
@@ -189,37 +194,41 @@ form{
 }
 
 
+
+
 .link{
     width: 30%;
 }
-
 .link-img{
     text-align: center;
     width: 90%;
 }
-
 .socials-2 img{
     width: 50px;
     margin: 10px;
 }
-
 .link h3{
     font-size: 22px;
     color: #000;
     margin-bottom: 15px;
 }
-
 .link a{
     font-size: 18px;
     display: flex;
     color: #000;
     margin-bottom: 20px;
 }
-
 .link a:hover{
     color: #bb7373;
 }
 
+
+
+.btn-primary2{
+    background-color: white !important ; 
+    color: #000 !important;
+    border: none !important;
+}
 
 
 
@@ -229,7 +238,6 @@ form{
          
     }
 }
-
 @media (min-width: 992px) {  
     .carousel-inner {
         width: 80%;  
@@ -239,5 +247,8 @@ form{
 
 
 
+.error{
 
+    color: red;
 
+}
