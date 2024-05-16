@@ -32,7 +32,7 @@ p{
     font-size: 50px !important;
     line-height: 10vh !important;
     color: #FFFFFF !important;
-    background-color: #dac4c9  !important;
+    background-color: #d9aeb8  !important;
     border-bottom: 1px solid rgb(252, 249, 249) !important;
     
 }
@@ -70,7 +70,7 @@ p{
 
 
 .custom-modal-btn {
-    background-color: #bda5a5 !important;
+    background-color: #d9aeb8 !important;
     border-color: #FFFFFF !important; 
 }
 .modal-header{
@@ -92,12 +92,130 @@ p{
     align-items: center;
     text-align: center;
     width: auto;
+    
 }
+
+.container-titulo2{
+    min-height: 8vh;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    color: #ffffff;
+    background-color: #d9aeb8 !important;
+    align-items: center;
+    padding: 2%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    
+
+
+}
+
+
+
+.contenedorofertas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.modal-header{
+    background-color: #d1bcc0;
+    color: #FFFFFF;
+}
+
+.modal-body{
+    background-color: #d1bcc0;
+    color: #FFFFFF;
+}
+
+.modal-footer{
+    background-color: #d1bcc0 !important;
+}
+
+.modal-title {
+    background-color:#d1bcc0 !important ;
+    border-bottom: 1px solid #d1bcc0;
+}
+
+.btn{
+    --bs-btn-hover-border-color: #fff !important
+}
+
+
+.card-text{
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    color: #000 !important;
+    padding: 5px !important;
+
+}
+
+.card-title{
+    
+    line-height: 2 !important;
+    padding: 5px !important;
+}
+
+figure {
+    margin: 0 0 0rem !important;
+}
+
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.card figure{
+    
+    overflow: hidden;
+
+}
+
+.card img{
+    transition: all .5s;
+    
+    
+}
+
+.card:hover{
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.20);
+}
+
+.card:hover img{
+    
+    transform: scale(1.2);
+}
+
+.card button{
+  
+    border-radius: 0%  !important;
+    background: none !important;
+    background-color: #000 !important;
+    color: #FFFFFF !important;
+    padding: 15px 10px !important;
+    cursor: pointer !important;
+    height: 50px !important;
+    margin: 20px !important;
+    width: 340px !important;
+
+}
+
+
+
+
+
+
+
+
+
 .contenedor {
     display: flex;
     text-align: center;
     align-items: center;
     padding: 55px !important;
+    
     
 }
 
