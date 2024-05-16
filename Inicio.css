@@ -127,7 +127,7 @@ form{
     padding: 5%;
     border-top: 1px solid #ffffff;
     color: #ffffff;
-    background-color: #dac4c9;
+    background-color: #ebd4da;
 }
 
 
@@ -165,7 +165,7 @@ form{
 }
 
 .btn-2:hover{
-    background-color: #000;
+    background-color: #f6e1e6;
 }
 
 .error{
@@ -179,7 +179,7 @@ form{
     padding: 50px 0 0 0 ;
     display: flex;
     justify-content: center;
-    background-color: #bda5a5;
+    background-color: #FFFFFF;
 }
 .footer-copy{
     padding: 25px 0;
@@ -224,7 +224,7 @@ form{
 }
 
 .link a:hover{
-    color: #edcbcb;
+    color: #d27d7d;
 }
 
 
