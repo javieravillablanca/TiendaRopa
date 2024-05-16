@@ -106,7 +106,7 @@ p{
     padding: 2%;
     margin-left: 7.5%;
     margin-right: 7.5%;
-    
+    margin-top: 3%;
 
 
 }
@@ -214,8 +214,8 @@ figure {
     display: flex;
     text-align: center;
     align-items: center;
-    padding: 55px !important;
-    
+    padding: 30px !important;
+    border-bottom: 1px solid #ffffff;
     
 }
 
