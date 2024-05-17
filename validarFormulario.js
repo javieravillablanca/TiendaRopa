@@ -26,7 +26,10 @@ function validarFormularioNombre() {
 
     } else if (nombre.value.length < 3) {
         mensajesError.push(' Debe contener al menos 3 letras. ');
+    } else if (nombre.value.length >15) {
+        mensajesError.push(' Cantidad excedida. ');
     }
+
     if (mensajesError.length > 0) {
         errorNombre.textContent = mensajesError.join(' ');
     } else {
@@ -44,6 +47,8 @@ function validarFormularioApellido() {
         mensajesError.push(' Ingresar solo letras, por favor.');
     } else if (lastName.value.length < 3) {
         mensajesError.push(' Debe contener al menos 3 letras.');
+    } else if (lastName.value.length >15) {
+        mensajesError.push(' Cantidad excedida. ');
     } 
     if (mensajesError.length > 0) {
         errorApellido.textContent = mensajesError.join(' ');
